@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    box-sizing: border-box; /* Ensure consistent box-sizing */
+  }
+  
+  body {
+    background: #432E54;
+    margin: 0 16px; /* Apply margin to the whole website */
+    font-family: 'Roboto', serif;
+  }
+
+  h1, h2, h3, h4, h5, h6, button {
+    font-family: 'Poppins', sans-serif;
+  }
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  @keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }
+  .circular-chart {
+    transform: rotate(-90deg);
+  }
+  
+  .circle-bg {
+    fill: none;
+    stroke: #ddd;
+    stroke-width: 4;
+  }
+  
+  .circle {
+    fill: none;
+    stroke-width: 4;
+    stroke-linecap: round;
+    stroke: #AE445A;
+    transition: stroke-dashoffset 1s ease;
+  }
+  
+  .text {
+    font-size: 0.9em;
+    font-weight: bold;
+  }
+  
