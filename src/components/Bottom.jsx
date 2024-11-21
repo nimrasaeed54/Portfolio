@@ -30,7 +30,6 @@ const Footer = () => {
                     >
                         <i className="fas fa-envelope text-2xl"></i> {/* Email Icon */}
                     </a>
-
                 </div>
                 <p className="text-sm text-[#F3f3f3]">
                     © {new Date().getFullYear()} Nimra Saeed. All rights reserved.
