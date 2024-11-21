@@ -9,15 +9,15 @@ const Contact = () => {
     e.preventDefault();
     emailjs
       .sendForm(
-        "service_kquke48", // Replace with your Service ID
-        "template_mksji9f", // Replace with your Template ID
-        formRef.current, // Your form reference
-        "KyfNUoRDgyI2hWFJA" // Replace with your API Key
+        "service_kquke48", 
+        "template_mksji9f", 
+        formRef.current, 
+        "KyfNUoRDgyI2hWFJA" 
       )
       .then(
         (result) => {
           setSuccessMessage("Your message has been sent successfully!");
-          e.target.reset(); // Clear the form after submission
+          e.target.reset(); 
         },
         (error) => {
           setSuccessMessage("Failed to send your message. Please try again.");
@@ -95,3 +95,6 @@ const Contact = () => {
 };
 
 export default Contact;
+
+
+

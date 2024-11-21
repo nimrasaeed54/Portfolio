@@ -5,15 +5,15 @@ import "aos/dist/aos.css";
 
 const Skills = () => {
   useEffect(() => {
-    AOS.init(); // Initialize AOS for animations
+    AOS.init(); 
   }, []);
 
   return (
-    <section className="skills-section py-16 text-white">
+    <section id="Skills" className="skills-section py-16 text-white">
       <div className="text-center mb-12">
         <h2
           className="text-3xl font-semibold"
-          data-aos="fade-left" // This makes the text come from the left
+          data-aos="fade-left" 
           data-aos-duration="1000"
         >
           My Skills
@@ -29,10 +29,10 @@ const Skills = () => {
       </div>
 
       <div className="flex flex-wrap justify-center gap-8">
-        {/* Frontend Skills */}
+      
         <div
           className="skill-category text-center bg-[#432E54] p-6 rounded-xl shadow-2xl w-[300px] h-[350px] sm:w-[280px] sm:h-[330px] hover:scale-105 hover:shadow-xl transition-all duration-300"
-          data-aos="fade-right" // This will make the card come from the left
+          data-aos="fade-right"
           data-aos-duration="1000"
           data-aos-delay="200"
         >
@@ -42,11 +42,9 @@ const Skills = () => {
           <h3 className="text-xl font-medium mt-4 text-[#FF7A8A]">Frontend Development</h3>
           <p className="text-sm text-[#e18ee7]">HTML, CSS, JavaScript, React, Tailwind</p>
         </div>
-
-        {/* Design Skills */}
         <div
           className="skill-category text-center bg-[#432E54] p-6 rounded-xl shadow-xl w-[300px] h-[350px] sm:w-[280px] sm:h-[330px] hover:scale-105 hover:shadow-xl  transition-all duration-300"
-          data-aos="fade-right" // This will make the card come from the left
+          data-aos="fade-right" 
           data-aos-duration="1000"
           data-aos-delay="200"
         >
@@ -57,10 +55,10 @@ const Skills = () => {
           <p className="text-sm text-[#e18ee7]">Canva, Figma, Adobe Photoshop</p>
         </div>
 
-        {/* Version Control */}
+      
         <div
           className="skill-category text-center bg-[#432E54] p-6 rounded-xl shadow-2xl w-[300px] h-[350px] sm:w-[280px] sm:h-[330px] hover:scale-105 hover:shadow-xl transition-all duration-300"
-          data-aos="fade-right" // This will make the card come from the left
+          data-aos="fade-right" 
           data-aos-duration="1000"
           data-aos-delay="200"
         >

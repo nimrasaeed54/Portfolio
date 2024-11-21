@@ -4,11 +4,11 @@ import "aos/dist/aos.css";
 
 const About = () => {
   useEffect(() => {
-    AOS.init(); // Initialize AOS for animations
+    AOS.init();
   }, []);
 
   return (
-    <section className="about-section py-16 bg-[#432E54] text-white">
+    <section id="About" className="about-section py-16 bg-[#432E54] text-white">
       <div className="text-center mb-12">
         <h2
           className="text-3xl sm:text-4xl md:text-5xl font-semibold"
@@ -26,9 +26,7 @@ const About = () => {
           Who I am and What I Do
         </p>
       </div>
-
       <div className="flex flex-col-reverse md:flex-row justify-between gap-10 px-4">
-        {/* Left Side - Text */}
         <div
           className="w-full md:w-1/2 space-y-6"
           data-aos="fade-left"
@@ -44,26 +42,27 @@ const About = () => {
           <p className="text-md sm:text-lg md:text-xl text-[#f3f3f3]">
             I believe in clean code, great design, and modern technologies to build seamless digital experiences.
           </p>
-
-          {/* Soft and Design Skills */}
-          <div className="space-y-4 mt-8">
+          <div className="space-y-6 mt-8">
             <div>
               <h4 className="text-xl font-semibold text-[#FF7A8A]">Technical Skills:</h4>
-              <p className="text-[#f3f3f3]">HTML5, CSS, JavaScript, React, Tailwind, Bootstrap, Git</p>
+              <p className="text-[#f3f3f3]">
+                HTML5, CSS, JavaScript, React, Tailwind CSS, Bootstrap, Git
+              </p>
             </div>
             <div>
               <h4 className="text-xl font-semibold text-[#FF7A8A]">Soft Skills:</h4>
-              <p className="text-[#f3f3f3]">Communication, Problem Solving, Collaboration, Time Management</p>
+              <p className="text-[#f3f3f3]">
+                Communication, Problem Solving, Collaboration, Time Management
+              </p>
             </div>
-
             <div>
               <h4 className="text-xl font-semibold text-[#FF7A8A]">Design Skills:</h4>
-              <p className="text-[#f3f3f3]">Canva, Figma, Adobe Photoshop</p>
+              <p className="text-[#f3f3f3]">
+                Canva, Figma, Adobe Photoshop
+              </p>
             </div>
           </div>
         </div>
-
-        {/* Right Side - Image */}
         <div
           className="w-full md:w-1/2 flex justify-center"
           data-aos="fade-right"
@@ -71,14 +70,12 @@ const About = () => {
           data-aos-delay="600"
         >
           <img
-            src="/person.png" // Replace with your own image
-            alt="My Picture"
+            src="/aboutme.jpg"
+            alt="Portrait of Nimra Saeed"
             className="w-64 h-64 md:w-80 md:h-80 rounded-full object-cover shadow-lg"
           />
         </div>
       </div>
-
-      {/* Education Section */}
       <div className="education-section mt-16 text-center">
         <h2
           className="text-3xl sm:text-4xl md:text-5xl font-semibold"
@@ -100,7 +97,6 @@ const About = () => {
               Gained a strong foundation in programming, algorithms, and web development. Completed multiple projects in web design and frontend development.
             </p>
           </div>
-
           <div
             className="education-item p-6 bg-[#533C72] rounded-lg shadow-lg"
             data-aos="fade-up"
