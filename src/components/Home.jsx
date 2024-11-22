@@ -61,7 +61,7 @@ const Home = () => {
             </a>
             <a
               href="/resume.pdf"
-              download="Nimra_Saeed_Resume.pdf"
+              download="Resume-Nimra-Saeed.pdf"
               className="bg-[#ff4f62] shadow-2xl text-white px-6 py-3 rounded-md hover:bg-[#FF7A8A] hover:scale-105 transition-transform duration-300 w-full sm:w-auto text-center"
             >
               Download Resume
