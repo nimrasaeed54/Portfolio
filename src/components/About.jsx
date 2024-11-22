@@ -73,6 +73,7 @@ const About = () => {
             src="/aboutme.jpg"
             alt="Portrait of Nimra Saeed"
             className="w-64 h-64 md:w-80 md:h-80 rounded-full object-cover shadow-lg"
+            loading="lazy"
           />
         </div>
       </div>

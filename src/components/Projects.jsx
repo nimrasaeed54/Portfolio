@@ -98,6 +98,7 @@ const Projects = () => {
                     alt={`${project.title} - Image ${imageIndex + 1}`}
                     className="w-full h-60 object-cover transition-transform duration-300 transform hover:scale-110 cursor-pointer"
                     onClick={() => openModal(imageUrl)} 
+                    loading="lazy"
                   />
                 </div>
               ))}
@@ -132,6 +133,7 @@ const Projects = () => {
               src={currentImage}
               alt="FullScreen"
               className="max-w-full max-h-screen object-contain"
+              loading="lazy"
             />
             <button
               onClick={closeModal}
