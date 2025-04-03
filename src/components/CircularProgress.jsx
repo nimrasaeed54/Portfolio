@@ -5,16 +5,14 @@ const CircularProgress = ({ percentage, label, color }) => {
   const radius = 50;
   const circumference = 2 * Math.PI * radius;
 
-  // Calculate the final stroke dash offset
   const strokeDashoffset = circumference - (percentage / 100) * circumference;
 
-  // Animation for the stroke-dashoffset
   useEffect(() => {
     if (circleRef.current) {
-      circleRef.current.style.strokeDashoffset = circumference; // Start at full circumference
+      circleRef.current.style.strokeDashoffset = circumference; 
       setTimeout(() => {
-        circleRef.current.style.transition = "stroke-dashoffset 1.5s ease"; // Apply the transition after the initial render
-        circleRef.current.style.strokeDashoffset = strokeDashoffset; // Animate to final value
+        circleRef.current.style.transition = "stroke-dashoffset 1.5s ease"; 
+        circleRef.current.style.strokeDashoffset = strokeDashoffset; 
       }, 100);
     }
   }, [percentage]);
