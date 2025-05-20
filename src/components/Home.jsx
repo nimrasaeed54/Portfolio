@@ -1,14 +1,15 @@
+
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
 const Home = () => {
   useEffect(() => {
-    AOS.init(); 
+    AOS.init();
   }, []);
 
   return (
-    <>
+    <main>
       <section className="flex flex-col md:flex-row-reverse items-center justify-between px-4 py-16 bg-[#432E54]">
         <div
           className="w-full md:w-1/2 flex justify-center mt-6 md:mt-0 group"
@@ -17,12 +18,11 @@ const Home = () => {
         >
           <img
             src="/person.png"
-            alt="My Picture"
+            alt="Portrait of Nimra Saeed"
             className="w-64 h-64 md:w-80 md:h-80 rounded-full object-cover shadow-lg group-hover:scale-105 transition-transform duration-300 ease-in-out"
           />
         </div>
 
-        {/* Left Side - Text Content */}
         <div
           className="w-full md:w-1/2 space-y-6 text-center md:text-left"
           data-aos="fade-up"
@@ -47,14 +47,13 @@ const Home = () => {
             I specialize in building responsive, user-friendly websites with modern web technologies.
           </p>
 
-          {/* Button Section */}
           <div
             className="flex flex-col sm:flex-row items-center justify-center md:justify-start space-y-4 sm:space-y-0 sm:space-x-4 mt-4"
             data-aos="zoom-in"
             data-aos-duration="1500"
           >
             <a
-              href="mailto:your-email@example.com"
+              href="mailto:nimraasaeed54@gmail.com"
               className="bg-[#FF7A8A] shadow-2xl text-white px-6 py-3 rounded-md hover:bg-[#ff4f62] hover:scale-105 transition-transform duration-300 w-full sm:w-auto text-center"
             >
               Get in Touch
@@ -69,8 +68,7 @@ const Home = () => {
           </div>
         </div>
       </section>
-
-    </>
+    </main>
   );
 };
 
