@@ -252,27 +252,7 @@ const About = () => {
             </div>
           </div>
 
-          {/* Experience 2 */}
-          <div
-            className="bg-[#533C72] p-6 rounded-lg shadow-lg flex items-start gap-6"
-            data-aos="fade-left"
-            data-aos-duration="1000"
-            data-aos-delay="500"
-          >
-            <FaCode className="text-[#FF7A8A] text-4xl flex-shrink-0" />
-            <div>
-              <h3 className="text-2xl font-semibold text-[#FF7A8A]">
-                Frontend Developer Intern
-              </h3>
-              <p className="text-lg text-[#f3f3f3] font-medium">SSSoftech Limited, Lahore</p>
-              <p className="text-sm text-[#f3f3f3] italic mb-2">Jun 2024 – Jan 2025</p>
-              <ul className="list-disc list-inside text-[#f3f3f3] space-y-1">
-                <li>Built scalable UI modules for a doctor appointment application using React and Tailwind CSS.</li>
-                <li>Implemented state management using React Context API for dynamic filtering.</li>
-                <li>Delivered SEO-friendly and responsive layouts.</li>
-              </ul>
-            </div>
-          </div>
+        
         </div>
       </div>
 
