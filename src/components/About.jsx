@@ -217,17 +217,17 @@ const About = () => {
         </div>
       </div>
 
-      {/* Work Experience Section */}
-      <div className="work-experience mt-16">
+  
+      {/* <div className="work-experience mt-16">
         <h2
           className="text-3xl sm:text-4xl md:text-5xl font-semibold text-center mb-10"
           data-aos="fade-up"
           data-aos-duration="1000"
         >
           Work Experience
-        </h2>
-        <div className="max-w-4xl mx-auto space-y-8">
-          {/* Experience 1 */}
+        </h2> */}
+          {/* <div className="max-w-4xl mx-auto space-y-8">
+   
           <div
             className="bg-[#533C72] p-6 rounded-lg shadow-lg flex items-start gap-6"
             data-aos="fade-right"
@@ -255,6 +255,7 @@ const About = () => {
         
         </div>
       </div>
+      */}
 
       {/* Education Section */}
       <div className="education-section mt-16 text-center">

@@ -29,7 +29,8 @@ const Home = () => {
           data-aos-duration="1200"
         >
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-semibold text-[#f3f3f3] leading-tight md:leading-relaxed">
-            Hi, I'm Nimra Saeed
+       Hi, I'm <span className="text-[#FF7A8A]">Nimra Saeed</span>
+
           </h1>
           <p
             className="text-xl sm:text-2xl md:text-3xl font-medium text-[#FF7A8A]"
