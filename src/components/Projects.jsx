@@ -11,7 +11,7 @@ const projects = [
     description: "Official website for Sahan Technology LLC, showcasing services, projects, and providing a Contact Us form using React, Tailwind CSS, and Firestore.",
     techStack: "React, Tailwind CSS,Firebase",
     github: "https://github.com/nimrasaeed54/Sahab-Technology-LLC",
-    link:"https://sahabtechnologyllc.pages.dev/",
+    link: "https://sahabtechnologyllc.pages.dev/",
     imageUrls: [
       "/sahabscreen1.png",
       "/sahabscreen2.png",
@@ -24,7 +24,7 @@ const projects = [
     description: "An Ecommerce website with a clean, modern UI. It uses React, Tailwind CSS, and Context API for managing global state like cart items and user authentication.",
     techStack: "Tailwind CSS, React",
     github: "https://github.com/nimrasaeed54/todocontextlocal",
-    link:"https://ecommerce-seven-theta-61.vercel.app/",
+    link: "https://ecommerce-seven-theta-61.vercel.app/",
     imageUrls: [
       "/ecommerce-home.png",
       "/ecommerce-product-page.png",
@@ -32,18 +32,18 @@ const projects = [
     ],
   },
   {
-  title: "Autism Management System",
-  description: "A web application designed to manage students, teachers, and their payments efficiently. The system allows administrators to handle records, track payments, and streamline the management process.",
-  techStack: "React, Tailwind CSS, Firebase",
-  github: "https://github.com/nimrasaeed54/autism-center",
-  link: "https://github.com/nimrasaeed54/autism-center-management",
+    title: "Autism Management System",
+    description: "A web application designed to manage students, teachers, and their payments efficiently. The system allows administrators to handle records, track payments, and streamline the management process.",
+    techStack: "React, Tailwind CSS, Firebase",
+    github: "https://github.com/nimrasaeed54/autism-center",
+    link: "https://autism-center-management.vercel.app/login",
 
-  imageUrls: [
-    "/autism-system.png",
-    "/autism-system2.png",
-        "/autism-system3.png",
-  ],
-}
+    imageUrls: [
+      "/autism-system.png",
+      "/autism-system2.png",
+      "/autism-system3.png",
+    ],
+  }
 
   // {
   //   title: "Weather App",
