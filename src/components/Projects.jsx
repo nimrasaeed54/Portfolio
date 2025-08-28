@@ -32,20 +32,34 @@ const projects = [
     ],
   },
   {
-    title: "Weather App",
-    description: "A weather website that fetches data from an API and displays detailed weather results. Users can search for any city's weather conditions.",
-    techStack: "React, Tailwind CSS, OpenWeather API",
-    github: "https://github.com/nimrasaeed54/weatherweb",
-    link:"https://weatherweb-steel.vercel.app/",
+  title: "Autism Management System",
+  description: "A web application designed to manage students, teachers, and their payments efficiently. The system allows administrators to handle records, track payments, and streamline the management process.",
+  techStack: "React, Tailwind CSS, Firebase",
+  github: "https://github.com/nimrasaeed54/autism-center",
+  link: "https://github.com/nimrasaeed54/autism-center-management",
+
+  imageUrls: [
+    "/autism-system.png",
+    "/autism-system2.png",
+        "/autism-system3.png",
+  ],
+}
+
+  // {
+  //   title: "Weather App",
+  //   description: "A weather website that fetches data from an API and displays detailed weather results. Users can search for any city's weather conditions.",
+  //   techStack: "React, Tailwind CSS, OpenWeather API",
+  //   github: "https://github.com/nimrasaeed54/weatherweb",
+  //   link:"https://weatherweb-steel.vercel.app/",
 
 
-    imageUrls: [
-      "/weather.png",
-      "/weather.png",
+  //   imageUrls: [
+  //     "/weather.png",
+  //     "/weather.png",
 
 
-    ],
-  }
+  //   ],
+  // }
 
 ];
 
