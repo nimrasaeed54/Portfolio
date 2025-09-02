@@ -29,7 +29,7 @@ const Home = () => {
           data-aos-duration="1200"
         >
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-semibold text-[#f3f3f3] leading-tight md:leading-relaxed">
-       Hi, I'm <span className="text-[#FF7A8A]">Nimra Saeed</span>
+            Hi, I'm <span className="text-[#FF7A8A]">Nimra Saeed</span>
 
           </h1>
           <p
@@ -38,14 +38,21 @@ const Home = () => {
             data-aos-duration="2000"
             data-aos-delay="500"
           >
-            A Passionate Frontend Developer
+            Crafting Modern Frontend & Full-Stack Solutions
           </p>
 
-          <p className="text-lg sm:text-xl md:text-2xl text-[#f3f3f3] leading-relaxed">
+          {/* <p className="text-lg sm:text-xl md:text-2xl text-[#f3f3f3] leading-relaxed">
             Transforming Ideas into Beautiful Digital Experiences
           </p>
           <p className="text-md sm:text-lg md:text-xl text-[#f3f3f3] leading-relaxed">
             I specialize in building responsive, user-friendly websites with modern web technologies.
+          </p> */}
+
+          <p className="text-lg sm:text-xl md:text-2xl text-[#f3f3f3] leading-relaxed">
+            Building seamless digital experiences that users love.
+          </p>
+          <p className="text-md sm:text-lg md:text-xl text-[#f3f3f3] leading-relaxed">
+            From frontend design to full-stack development, I deliver end-to-end web solutions.
           </p>
 
           <div
