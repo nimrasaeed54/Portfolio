@@ -36,7 +36,7 @@ const projects = [
     description: "A web application designed to manage students, teachers, and their payments efficiently. The system allows administrators to handle records, track payments, and streamline the management process.",
     techStack: "React, Tailwind CSS, Firebase",
     github: "https://github.com/nimrasaeed54/autism-center",
-    link: "https://autism-center-management.vercel.app/login",
+    link: "https://autism-center-management.vercel.app",
 
     imageUrls: [
       "/autism-system.png",
